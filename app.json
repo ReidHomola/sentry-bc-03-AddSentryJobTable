@@ -1,0 +1,65 @@
+{
+"id": "F6EFBD13-8270-4561-9B1A-72ED6A503774",
+"name": "Add Sentry Job Table",
+"publisher": "Visby, Reid Homola",
+"version": "1.0.0.2",
+"runtime": "12.0",
+"target": "Cloud",
+"platform": "1.0.0.0",
+"application": "23.0.0.0",
+"resourceExposurePolicy": {
+  "allowDebugging": true,
+  "allowDownloadingSource": true,
+  "includeSourceInSymbolFile": true
+},
+"dependencies": [
+  {
+    "id": "eb9086e8-4ec9-4ff3-af91-f0f8053575a6",
+    "name": "Add Sentry Department Table",
+    "version": "1.0.0.2",
+    "publisher": "Visby, Reid Homola"
+  },
+  {
+    "id": "958622b8-cf5f-4af2-820f-8b96bbedc8fb",
+    "name": "Add Sentry Purchasing Account",
+    "version": "1.0.0.2",
+    "publisher": "Visby, Reid Homola"
+  },
+  {
+    "id": "b17aacca-1faa-4cee-b432-bfbd1f790b3c",
+    "name": "Warehouse Documents Modifications",
+    "version": "1.0.0.5",
+    "publisher": "Visby, Reid Homola"
+  },
+  {
+    "id": "43184947-bace-4473-b449-385890f39095",
+    "name": "Purchases Document Modifications",
+    "version": "1.0.0.13",
+    "publisher": "Visby, Reid Homola"
+  },
+  {
+    "id": "263068a7-a593-41db-a1cc-7416dd3af2ef",
+    "name": "Bulk Update Item Attributes",
+    "version": "1.0.0.0",
+    "publisher": "Visby, Reid Homola"
+  },
+  {
+    "id": "4c032704-5c36-4480-b710-29e8565568bc",
+    "name": "Simple Object Designer",
+    "version": "12.0.0.495",
+    "publisher": "Hougaard"
+  },
+  {
+    "id": "de0ad312-13dc-48bc-9aa4-eec46e388ee0",
+    "name": "AL Compiler and Interpreter",
+    "version": "1.0.0.257",
+    "publisher": "Hougaard"
+  }
+],
+"idRanges": [
+  {
+    "from": 50902,
+    "to": 51902
+  }
+]
+}
