@@ -1,17 +1,18 @@
-page 50902 "SentryJobList"
+page 50300 "Sentry Job List"
 {
     PageType = List;
-    SourceTable = "SentryJobVby";
-    Caption = 'Sentry Job';
+    ApplicationArea = All;
     UsageCategory = Lists;
-    ApplicationArea = all;
+    SourceTable = "Sentry Job";
+    Caption = 'Sentry Jobs';
+
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(Rep)
             {
-                field(JobNo; Rec.JobNo)
+                field("Job No."; Rec."Sentry Job No.")
                 {
                     ApplicationArea = All;
                 }
@@ -19,14 +20,7 @@ page 50902 "SentryJobList"
                 {
                     ApplicationArea = All;
                 }
-
             }
-        }
-    }
-    actions
-    {
-        area(processing)
-        {
         }
     }
 }
