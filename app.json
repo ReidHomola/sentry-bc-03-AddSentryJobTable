@@ -1,8 +1,8 @@
 {
-"id": "F6EFBD13-8270-4561-9B1A-72ED6A503774",
+"id": "8ba3c67f-63ff-4147-901f-38471c9d9d1c",
 "name": "Add Sentry Job Table",
 "publisher": "Visby, Reid Homola",
-"version": "1.0.0.3",
+"version": "1.0.0.1",
 "runtime": "12.0",
 "target": "Cloud",
 "platform": "1.0.0.0",
@@ -12,20 +12,7 @@
   "allowDownloadingSource": true,
   "includeSourceInSymbolFile": true
 },
-"dependencies": [
-  {
-    "id": "eb9086e8-4ec9-4ff3-af91-f0f8053575a6",
-    "name": "Add Sentry Department Table",
-    "version": "1.0.0.2",
-    "publisher": "Visby, Reid Homola"
-  },
-  {
-    "id": "958622b8-cf5f-4af2-820f-8b96bbedc8fb",
-    "name": "Add Sentry Purchasing Account",
-    "version": "1.0.0.2",
-    "publisher": "Visby, Reid Homola"
-  }
-],
+"dependencies": [],
 "idRanges": [
   {
     "from": 50300,
